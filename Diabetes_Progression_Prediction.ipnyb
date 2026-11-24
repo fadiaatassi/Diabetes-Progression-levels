@@ -23,12 +23,12 @@
         "colab_type": "text"
       },
       "source": [
-        "<a href=\"https://colab.research.google.com/github/fadiaatassi/Patients-Drug-levels/blob/main/Diabetes_Progression_Prediction.ipnyb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+        "<a href=\"https://colab.research.google.com/github/fadiaatassi/Diabetes-Progression-levels/blob/main/Diabetes_Progression_Prediction.ipnyb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
       ]
     },
     {
       "cell_type": "code",
-      "execution_count": 1,
+      "execution_count": null,
       "metadata": {
         "id": "DnutdVGoYX3x"
       },
@@ -55,7 +55,7 @@
         "id": "jXG3EV0SZ360",
         "outputId": "4051bea5-a557-4bee-9648-609bbd710a73"
       },
-      "execution_count": 4,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -359,7 +359,7 @@
         "id": "M_Gb-_iRctFd",
         "outputId": "209107e4-385b-402d-8dd8-3c64422a8110"
       },
-      "execution_count": 5,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -389,7 +389,7 @@
         "id": "zOrzRsWAdZCl",
         "outputId": "bc5db51d-2b4a-453b-f7c0-010391c45613"
       },
-      "execution_count": 9,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "display_data",
@@ -419,7 +419,7 @@
         "id": "Q88RfhtregqF",
         "outputId": "bd1d805f-a66b-4a6f-a1f1-078d6d5f4a2c"
       },
-      "execution_count": 10,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "display_data",
@@ -445,7 +445,7 @@
       "metadata": {
         "id": "XqYFU0yqfot1"
       },
-      "execution_count": 16,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -459,7 +459,7 @@
       "metadata": {
         "id": "-5IbTmB8k_sL"
       },
-      "execution_count": 17,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -476,7 +476,7 @@
         "id": "2QHC7hvgmAPU",
         "outputId": "b7ca4e75-ac34-489a-ed04-804fa159c97a"
       },
-      "execution_count": 18,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -517,7 +517,7 @@
         "id": "i6d1dLWEms6B",
         "outputId": "84890074-c576-43a0-9291-b9da179853ef"
       },
-      "execution_count": 19,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -548,7 +548,7 @@
         "id": "loJgWQ1Loy_F",
         "outputId": "5545903d-ea83-458a-a871-ebcc3b1676d6"
       },
-      "execution_count": 20,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "display_data",
