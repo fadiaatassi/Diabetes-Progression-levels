@@ -28,7 +28,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": 1,
       "metadata": {
         "id": "DnutdVGoYX3x"
       },
@@ -53,31 +53,41 @@
           "height": 363
         },
         "id": "jXG3EV0SZ360",
-        "outputId": "4051bea5-a557-4bee-9648-609bbd710a73"
+        "outputId": "710a3927-e1fe-4c88-8fbd-655ca6a08044"
       },
-      "execution_count": null,
+      "execution_count": 2,
       "outputs": [
         {
           "output_type": "execute_result",
           "data": {
             "text/plain": [
-              "    age  sex   bmi     bp     tc  ...   hdl   tch     ltg  glucose  progression\n",
-              "0  59.0  2.0  32.1  101.0  157.0  ...  38.0  4.00  4.8598     87.0        151.0\n",
-              "1  48.0  1.0  21.6   87.0  183.0  ...  70.0  3.00  3.8918     69.0         75.0\n",
-              "2  72.0  2.0  30.5   93.0  156.0  ...  41.0  4.00  4.6728     85.0        141.0\n",
-              "3  24.0  1.0  25.3   84.0  198.0  ...  40.0  5.00  4.8903     89.0        206.0\n",
-              "4  50.0  1.0  23.0  101.0  192.0  ...  52.0  4.00  4.2905     80.0        135.0\n",
-              "5  23.0  1.0  22.6   89.0  139.0  ...  61.0  2.00  4.1897     68.0         97.0\n",
-              "6  36.0  2.0  22.0   90.0  160.0  ...  50.0  3.00  3.9512     82.0        138.0\n",
-              "7  66.0  2.0  26.2  114.0  255.0  ...  56.0  4.55  4.2485     92.0         63.0\n",
-              "8  60.0  2.0  32.1   83.0  179.0  ...  42.0  4.00  4.4773     94.0        110.0\n",
-              "9  29.0  1.0  30.0   85.0  180.0  ...  43.0  4.00  5.3845     88.0        310.0\n",
+              "    age  sex   bmi     bp     tc    ldl   hdl   tch     ltg  glucose  \\\n",
+              "0  59.0  2.0  32.1  101.0  157.0   93.2  38.0  4.00  4.8598     87.0   \n",
+              "1  48.0  1.0  21.6   87.0  183.0  103.2  70.0  3.00  3.8918     69.0   \n",
+              "2  72.0  2.0  30.5   93.0  156.0   93.6  41.0  4.00  4.6728     85.0   \n",
+              "3  24.0  1.0  25.3   84.0  198.0  131.4  40.0  5.00  4.8903     89.0   \n",
+              "4  50.0  1.0  23.0  101.0  192.0  125.4  52.0  4.00  4.2905     80.0   \n",
+              "5  23.0  1.0  22.6   89.0  139.0   64.8  61.0  2.00  4.1897     68.0   \n",
+              "6  36.0  2.0  22.0   90.0  160.0   99.6  50.0  3.00  3.9512     82.0   \n",
+              "7  66.0  2.0  26.2  114.0  255.0  185.0  56.0  4.55  4.2485     92.0   \n",
+              "8  60.0  2.0  32.1   83.0  179.0  119.4  42.0  4.00  4.4773     94.0   \n",
+              "9  29.0  1.0  30.0   85.0  180.0   93.4  43.0  4.00  5.3845     88.0   \n",
               "\n",
-              "[10 rows x 11 columns]"
+              "   progression  \n",
+              "0        151.0  \n",
+              "1         75.0  \n",
+              "2        141.0  \n",
+              "3        206.0  \n",
+              "4        135.0  \n",
+              "5         97.0  \n",
+              "6        138.0  \n",
+              "7         63.0  \n",
+              "8        110.0  \n",
+              "9        310.0  "
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-f24a8491-60dc-40b9-a0bf-6592726ce2ff\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-b6dee565-96a4-45df-a8fd-dda91422d1df\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -256,7 +266,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-f24a8491-60dc-40b9-a0bf-6592726ce2ff')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-b6dee565-96a4-45df-a8fd-dda91422d1df')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -308,12 +318,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-f24a8491-60dc-40b9-a0bf-6592726ce2ff button.colab-df-convert');\n",
+              "        document.querySelector('#df-b6dee565-96a4-45df-a8fd-dda91422d1df button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-f24a8491-60dc-40b9-a0bf-6592726ce2ff');\n",
+              "        const element = document.querySelector('#df-b6dee565-96a4-45df-a8fd-dda91422d1df');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -343,7 +353,7 @@
             }
           },
           "metadata": {},
-          "execution_count": 4
+          "execution_count": 2
         }
       ]
     },
@@ -357,9 +367,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "M_Gb-_iRctFd",
-        "outputId": "209107e4-385b-402d-8dd8-3c64422a8110"
+        "outputId": "29f7864c-46a4-40dc-a2fe-dc4a6d8258e7"
       },
-      "execution_count": null,
+      "execution_count": 3,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -369,7 +379,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 5
+          "execution_count": 3
         }
       ]
     },
@@ -387,9 +397,9 @@
           "height": 449
         },
         "id": "zOrzRsWAdZCl",
-        "outputId": "bc5db51d-2b4a-453b-f7c0-010391c45613"
+        "outputId": "1fca0546-9e5b-4d09-8eaa-beb101970677"
       },
-      "execution_count": null,
+      "execution_count": 4,
       "outputs": [
         {
           "output_type": "display_data",
@@ -417,9 +427,9 @@
           "height": 449
         },
         "id": "Q88RfhtregqF",
-        "outputId": "bd1d805f-a66b-4a6f-a1f1-078d6d5f4a2c"
+        "outputId": "795cee2b-19ab-4f27-959d-1842028b159e"
       },
-      "execution_count": null,
+      "execution_count": 5,
       "outputs": [
         {
           "output_type": "display_data",
@@ -445,7 +455,7 @@
       "metadata": {
         "id": "XqYFU0yqfot1"
       },
-      "execution_count": null,
+      "execution_count": 6,
       "outputs": []
     },
     {
@@ -459,7 +469,7 @@
       "metadata": {
         "id": "-5IbTmB8k_sL"
       },
-      "execution_count": null,
+      "execution_count": 7,
       "outputs": []
     },
     {
@@ -474,9 +484,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "2QHC7hvgmAPU",
-        "outputId": "b7ca4e75-ac34-489a-ed04-804fa159c97a"
+        "outputId": "b05e898a-32f0-4164-cd6d-c1f2bac71360"
       },
-      "execution_count": null,
+      "execution_count": 8,
       "outputs": [
         {
           "output_type": "stream",
@@ -515,9 +525,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "i6d1dLWEms6B",
-        "outputId": "84890074-c576-43a0-9291-b9da179853ef"
+        "outputId": "6b000216-0bf9-49e1-b87c-641242d973f4"
       },
-      "execution_count": null,
+      "execution_count": 9,
       "outputs": [
         {
           "output_type": "stream",
@@ -546,9 +556,9 @@
           "height": 449
         },
         "id": "loJgWQ1Loy_F",
-        "outputId": "5545903d-ea83-458a-a871-ebcc3b1676d6"
+        "outputId": "5253a83f-d1d9-459c-e97b-4a7baa63dbbc"
       },
-      "execution_count": null,
+      "execution_count": 10,
       "outputs": [
         {
           "output_type": "display_data",
@@ -568,7 +578,7 @@
       "metadata": {
         "id": "wl9oANrupy62"
       },
-      "execution_count": null,
+      "execution_count": 10,
       "outputs": []
     }
   ]
